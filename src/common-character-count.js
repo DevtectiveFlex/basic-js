@@ -20,7 +20,7 @@ function getCommonCharacterCount(s1, s2) {
     s2 = s2.replace(s1[i],'');
    }
   }
-  return s2;
+  return counter;
 }
 
 module.exports = {
